@@ -17,17 +17,15 @@ header{
 
 
 .header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  padding-top: 100px;
+  height: 600px;
+  background-color: #f2f2f2;
+  position: relative;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: stretch;
   align-items: flex-start;
-  margin-bottom: 100px;
-  /* выше установили ограничения для секции */
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -46,7 +44,7 @@ header{
   font-size: 102px;
   font-weight: 600;
   z-index: 10;
-
+  text-align: left;
 }
 
 
@@ -57,7 +55,7 @@ header{
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  
+  text-align: left;
 
 
 }
